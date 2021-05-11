@@ -51,10 +51,10 @@ def parsePDF(files):
 if __name__ == '__main__':
 
     #年报存放路径
-    file_dir = 'D:/中信证券暑期/同业竞争2021/2020年报/'
+    file_dir = 'xxx'
     files = file_name(file_dir)[-1]
     data = parsePDF(files)
-    data.to_excel('D:/中信证券暑期/同业竞争2021/test1.xlsx')
+    data.to_excel('xxx')
 
 
 
